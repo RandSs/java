@@ -1,0 +1,25 @@
+package whileexo;
+
+import java.util.Scanner;
+
+public class exo10 {
+
+	public static void main(String[] args) {
+	Scanner clavier = new Scanner(System.in);
+	
+	
+	System.out.println("donner nbr");
+	
+	int nbr = clavier.nextInt();
+	int first =0;
+	int last=0;
+	
+   if(nbr % 10 != 0) {
+		 
+		last++;
+		
+	}
+     System.out.println(last);
+     }
+
+}

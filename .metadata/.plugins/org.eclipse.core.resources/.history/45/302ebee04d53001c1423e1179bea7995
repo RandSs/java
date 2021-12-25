@@ -1,0 +1,45 @@
+package whileexo;
+
+import java.util.Scanner;
+
+public class exo4 {
+
+	public static void main(String[] args) {
+		
+		
+		   Scanner clavier = new Scanner(System.in); 
+			
+			System.out.println("Donner prix");
+			System.out.println("Donner qte");
+			System.out.println("Donner billet");
+			
+			
+			int prix = clavier.nextInt();
+			int qte =clavier.nextInt();
+			int billet=clavier.nextInt();
+			
+		int some = prix * qte;
+		int change = billet - some;
+		int dix = 0;
+		
+		while(change % 10 == 0) {
+			
+			
+			
+			System.out.println((dix=change / 10) + " x 10 ");
+			System.out.println("Donner prix");
+			System.out.println("Donner qte");
+			System.out.println("Donner billet");
+		     prix = clavier.nextInt();
+		    qte =clavier.nextInt();
+			 billet=clavier.nextInt();
+			
+			
+		
+			
+		}
+			
+
+	}
+
+}

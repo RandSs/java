@@ -1,0 +1,36 @@
+package whileexo;
+
+import java.util.Scanner;
+
+public class exo10 {
+
+	public static void main(String[] args) {
+	Scanner clavier = new Scanner(System.in);
+	
+	
+	System.out.println("donner nbr");
+	
+	int nbr = clavier.nextInt();
+	int first =1;
+
+	int compter=nbr % 10;
+	
+	int last=0;
+	 while(nbr >= 10) {
+			int fir = nbr/10;
+	
+		
+		  first++;
+		  
+
+	   }
+   
+	   while(last < compter) {
+		   last++;
+		  
+	   }
+	
+     System.out.println(first +" first " + fir + " "+  last +"last");
+     }
+
+}
